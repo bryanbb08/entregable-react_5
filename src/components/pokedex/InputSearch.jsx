@@ -7,14 +7,14 @@ const InputSearch = () => {
 
     const submit = event => {
         event.preventDefault()
-        navigate(`/pokedex/${event.target.search.value.trim().toLoweCase()}`)
+        navigate(`/pokedex/${event.target.search.value.trim()}`)
     }
 
 
   return (
     <form onSubmit={submit}>
         <input id='search' type="text" placeholder='Search a pokemon'/>
-        <button >Search</button>
+        <button>Search</button>
     </form>
   )
 }

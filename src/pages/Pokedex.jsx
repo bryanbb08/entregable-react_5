@@ -27,7 +27,7 @@ const Pokedex = () => {
         <InputSearch />
       </aside>
       <main>
-        <div className="card-container">
+        <div className='card-container'>
           {
             pokemons?.map(pokemon => (
               <CardPoke  
