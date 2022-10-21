@@ -7,7 +7,7 @@ const InputSearch = () => {
 
     const submit = event => {
         event.preventDefault()
-        navigate(`/pokedex/${event.target.search.value.trim()}`)
+        navigate(`/pokedex/${event.target.search.value.trim().toLowerCase()}`)
     }
 
 
