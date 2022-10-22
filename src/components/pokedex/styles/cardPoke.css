@@ -47,7 +47,7 @@
     left: -10px;
 }
 .card-poke__type-label {
-    color: aliceblue;
+    color: rgba(180, 23, 86, 0.261);
     font-size: 13px;
     text-align: center;
 }
@@ -100,7 +100,33 @@
 .border-electric {
     border-color: #aea809e6;
 }
-
+.border-ground {
+    border-color: #ae5e09e6;
+}
+.border-fairy {
+    border-color: #ae0927e6;
+}
+.border-fighting {
+    border-color:#aea809e6;
+}
+.border-psychic {
+    border-color:#1f2d4cf9;
+}
+.border-rock {
+    border-color:#303237f9;
+}
+.border-ice {
+    border-color:#01a7c0f9;
+}
+.border-dragon {
+    border-color:#dc3b0ae2;
+}
+.border-dark {
+    border-color:#ff0808e2;
+}
+.border-steel {
+    border-color:#172950e2;
+}
 
 
 
@@ -130,6 +156,33 @@
 .bg-electric {
     background: linear-gradient(177.03deg, #a3b106 -11.97%, #b8d01d 57.49%, #a5d604 135.64%);
 }
+.bg-ground {
+    background: linear-gradient(177.03deg, #b14806 -11.97%, #76310f 57.49%, #d67e04 135.64%);
+}
+.bg-fairy {
+    background: linear-gradient(177.03deg, #ae0927e6 -11.97%, #6c1436 57.49%, #ae0927e6 135.64%);
+}
+.bg-fighting {
+    background: linear-gradient(177.03deg, #aea809e6 -11.97%, #aea809e6 57.49%, #ae0927e6 135.64%);
+}
+.bg-psychic {
+    background: linear-gradient(177.03deg, #101b38e6 -11.97%, #05063ee6 57.49%, #050d21e6 135.64%);
+}
+.bg-rock {
+    background: linear-gradient(177.03deg, #363c4de6 -11.97%, #1d1d26e6 57.49%, #4d5057e6 135.64%);
+}
+.bg-ice {
+    background: linear-gradient(177.03deg, #363c4de6 -11.97%, #01a7c0f9 8.49%, #4d5057e6 135.64%);
+}
+.bg-dragon {
+    background: linear-gradient(177.03deg, #fe2a04e6 -11.97%, #c07401f9 58.49%, #4d5057e6 135.64%);
+}
+.bg-dark {
+    background: linear-gradient(177.03deg, #fe2a04e6 -11.97%, #c01e01f9 58.49%, #e00303 135.64%);
+}
+.bg-steel {
+    background: linear-gradient(177.03deg, #0447fee6 -11.97%, #c01e01f9 58.49%, #e00303 135.64%);
+}
 
 
 
@@ -137,6 +190,9 @@
 /* leter color */
 .letter-grass {
     color: green;
+}
+.letter-ghost {
+    color: #323569;
 }
 .letter-fire {
     color: #E75c35;
@@ -156,4 +212,30 @@
 .letter-electric {
     color: #aea809e6;
 }
-
+.letter-ground {
+    color: #ae5e09e6;
+}
+.letter-fairy {
+    color: #ae0927e6;
+}
+.letter-fighting {
+    color: #4d450aa2;
+}
+.letter-psychic {
+    color: #102f4ea2;
+}
+.letter-rock {
+    color: #2e3b48a2;
+}
+.letter-ice {
+    color: #01a7c0f9;
+}
+.letter-dragon {
+    color: #c07401f9;
+}
+.letter-dark {
+    color: #c00101f9;
+}
+.letter-steel {
+    color: #0164c0f9;
+}
