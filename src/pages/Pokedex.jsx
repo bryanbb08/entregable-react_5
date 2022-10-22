@@ -21,7 +21,7 @@ const Pokedex = () => {
         .catch(err => console.log(err))
     } else {
       // si niguno poke fue escogido aun y que aparezcan todos los poke
-      const URL = 'https://pokeapi.co/api/v2/pokemon?limit=20&offset=0'
+      const URL = 'https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0'
       axios.get(URL)
         .then(res => setPokemons (res.data.results))
         .catch(err => console.log(err))

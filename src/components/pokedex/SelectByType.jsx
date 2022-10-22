@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
-const SelectByType = (setTypeSelected) => {
+const SelectByType = ({setTypeSelected}) => {
 
     const [types, setTypes] = useState()
 

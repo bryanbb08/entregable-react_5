@@ -1,4 +1,67 @@
 .card-poke {
-    width: 350px;
-    border: 2px solid black;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.card-poke__header {
+    height: 200px;
+    background-color: yellowgreen;
+    position: relative;
+    margin-bottom: 67px;
+}
+.card-poke__sprite {
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card-poke__body {
+    margin-bottom: 20px;
+}
+.card-poke__name {
+    text-transform: capitalize;
+    /* ☝️ para comenzar palabras en mayuculas */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.card-poke__types-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.card-poke__type {
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+}
+.card-poke__type:nth-child(2)::before {
+    content: '/';
+    position: absolute;
+    left: -10px;
+}
+.card-poke__type-label {
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+}
+.card-poke__stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 5px;
+    justify-items: center;
+}
+.card-poke__stat {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.card-poke__stat-label {
+    color: rgb(33, 115, 187);
+}
+.card-poke__stat-number {
+    color: rgb(42, 113, 176);
 }
