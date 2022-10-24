@@ -46,10 +46,13 @@ const Pokedex = () => {
       </header>
       <aside>
         <InputSearch />
-        <SelectByType setTypeSelected={setTypeSelected}/>
+        <SelectByType setTypeSelected={setTypeSelected}
+        setPage={setPage}
+        />
         <Pagination 
           page={page}
           pagesLength = { pokemons && Math.ceil(pokemons.length / pokePerPage)}
+          setPage={setPage}
         />
       </aside>
       <main>
@@ -64,6 +67,11 @@ const Pokedex = () => {
           }
         </div>
       </main>
+      <Pagination 
+          page={page}
+          pagesLength = { pokemons && Math.ceil(pokemons.length / pokePerPage)}
+          setPage={setPage}
+        />
   </div>
   )
 }
