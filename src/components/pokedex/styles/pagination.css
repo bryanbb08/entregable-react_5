@@ -8,7 +8,7 @@
 }
 .pagination__container {
     display: flex;
-    gap: 8px;
+    gap: 1px;
 }
 .pagination__prev,
 .pagination__next,

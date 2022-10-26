@@ -5,6 +5,7 @@ import Pagination from '../components/pokedex/Pagination'
 import CardPoke from '../components/pokedex/CardPoke'
 import InputSearch from '../components/pokedex/InputSearch'
 import SelectByType from '../components/pokedex/SelectByType'
+import './styles/pokedex.css'
 
 const Pokedex = () => {
 
@@ -39,10 +40,10 @@ const Pokedex = () => {
   const finalPoke = page * pokePerPage
 
   return (
-    <div>
+    <div className='poke-dex__'>
       <header>
-        <h1>Pokedex</h1>
-        <p>Welcome <span>{userName}</span>, here you can find your favorite pokemon.</p>
+        <h1 className='poke-dex__title'>Pokedex</h1>
+        <p className='poke-dex__text'>Welcome <span className='poke-dex__text-yellow'>{userName}</span>, here you can find your favorite pokemon.</p>
       </header>
       <aside>
         <InputSearch />

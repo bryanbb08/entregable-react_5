@@ -1,0 +1,15 @@
+.inputButton{
+    text-align: center;
+    padding-top: 20px;
+}
+.inputButton__input {
+   border: solid green 1px;
+}
+
+.inputButton__button {
+    cursor: pointer;
+    background-color: var( --color-red);
+    border: rgb(21, 22, 22) solid 1px;
+    border-radius: 5px;
+   color: rgb(216, 216, 230);
+}

@@ -1,0 +1,19 @@
+.poke-dex__title {
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 80px;
+
+}
+.poke-dex__text {
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 30px;
+}
+
+.poke-dex__text-yellow {
+    color: var(--color-yellow);
+    font-weight: 800;
+}
+
+
+
